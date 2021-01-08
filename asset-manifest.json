@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/InstytucjaFilmowaMaxFilm/static/css/main.898998dc.chunk.css",
+    "main.js": "/InstytucjaFilmowaMaxFilm/static/js/main.f3754323.chunk.js",
+    "main.js.map": "/InstytucjaFilmowaMaxFilm/static/js/main.f3754323.chunk.js.map",
+    "runtime-main.js": "/InstytucjaFilmowaMaxFilm/static/js/runtime-main.53a3d00c.js",
+    "runtime-main.js.map": "/InstytucjaFilmowaMaxFilm/static/js/runtime-main.53a3d00c.js.map",
+    "static/css/2.e9f7250c.chunk.css": "/InstytucjaFilmowaMaxFilm/static/css/2.e9f7250c.chunk.css",
+    "static/js/2.90ba316c.chunk.js": "/InstytucjaFilmowaMaxFilm/static/js/2.90ba316c.chunk.js",
+    "static/js/2.90ba316c.chunk.js.map": "/InstytucjaFilmowaMaxFilm/static/js/2.90ba316c.chunk.js.map",
+    "index.html": "/InstytucjaFilmowaMaxFilm/index.html",
+    "static/css/2.e9f7250c.chunk.css.map": "/InstytucjaFilmowaMaxFilm/static/css/2.e9f7250c.chunk.css.map",
+    "static/css/main.898998dc.chunk.css.map": "/InstytucjaFilmowaMaxFilm/static/css/main.898998dc.chunk.css.map",
+    "static/js/2.90ba316c.chunk.js.LICENSE.txt": "/InstytucjaFilmowaMaxFilm/static/js/2.90ba316c.chunk.js.LICENSE.txt",
+    "static/media/Mercury.0be4ea63.png": "/InstytucjaFilmowaMaxFilm/static/media/Mercury.0be4ea63.png",
+    "static/media/Przedwiosnie-night.28785315.jpg": "/InstytucjaFilmowaMaxFilm/static/media/Przedwiosnie-night.28785315.jpg",
+    "static/media/Siedlce.0c2dfdeb.jpg": "/InstytucjaFilmowaMaxFilm/static/media/Siedlce.0c2dfdeb.jpg",
+    "static/media/Sybilla-day.e9d67f94.jpg": "/InstytucjaFilmowaMaxFilm/static/media/Sybilla-day.e9d67f94.jpg",
+    "static/media/advChristmasRegular.d5f11dc3.jpg": "/InstytucjaFilmowaMaxFilm/static/media/advChristmasRegular.d5f11dc3.jpg",
+    "static/media/advChristmasSmall.bc2a11c1.jpg": "/InstytucjaFilmowaMaxFilm/static/media/advChristmasSmall.bc2a11c1.jpg",
+    "static/media/advertising.10661463.jpg": "/InstytucjaFilmowaMaxFilm/static/media/advertising.10661463.jpg",
+    "static/media/billboard.7daa4011.png": "/InstytucjaFilmowaMaxFilm/static/media/billboard.7daa4011.png",
+    "static/media/boss.d1240fe8.jpg": "/InstytucjaFilmowaMaxFilm/static/media/boss.d1240fe8.jpg",
+    "static/media/femaleBoss.897ae104.jpg": "/InstytucjaFilmowaMaxFilm/static/media/femaleBoss.897ae104.jpg",
+    "static/media/internet.dd86805e.jpg": "/InstytucjaFilmowaMaxFilm/static/media/internet.dd86805e.jpg",
+    "static/media/maleBoss.b2cade10.jpg": "/InstytucjaFilmowaMaxFilm/static/media/maleBoss.b2cade10.jpg",
+    "static/media/poster.ed6c5cc4.jpg": "/InstytucjaFilmowaMaxFilm/static/media/poster.ed6c5cc4.jpg",
+    "static/media/rent.d2551f4d.jpg": "/InstytucjaFilmowaMaxFilm/static/media/rent.d2551f4d.jpg",
+    "static/media/ticket.158993b2.png": "/InstytucjaFilmowaMaxFilm/static/media/ticket.158993b2.png",
+    "static/media/wisla.e8a69490.png": "/InstytucjaFilmowaMaxFilm/static/media/wisla.e8a69490.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53a3d00c.js",
+    "static/css/2.e9f7250c.chunk.css",
+    "static/js/2.90ba316c.chunk.js",
+    "static/css/main.898998dc.chunk.css",
+    "static/js/main.f3754323.chunk.js"
+  ]
+}
