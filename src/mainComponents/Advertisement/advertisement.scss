@@ -1,0 +1,9 @@
+.advertisement{
+    margin: 30px auto;
+    text-align: center;
+    &__imagebox{
+        margin: 0 auto;
+        overflow: hidden;
+        max-width: 90vw;
+    }
+}

@@ -1,0 +1,128 @@
+.management{
+    background-color: transparent;
+    &__paragraph{
+        text-align: center;
+        margin: 5px;
+    }
+    &__paragraph--bold{
+        margin: 10px auto;
+        font-weight: bold;
+        @media(min-width: 992px){
+            margin: 20px auto;
+        }
+    }
+}
+.president{ 
+    display: flex;
+    flex-wrap: wrap;
+    @media(min-width: 992px){
+        height: 70vh;
+        flex-wrap: nowrap;
+    }
+    &__photo{
+        flex-basis: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media(min-width: 992px){
+            flex-basis: 50%;
+            height: 100%;
+        }
+        &__img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+            height: 100%;
+            border: 1px dashed black;
+            @media(min-width: 992px){
+                width: 60%;
+                height: 80%;
+            }
+        } 
+    }
+    &__info{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        @media(min-width: 992px){
+            flex-basis: 50%;
+            flex-wrap: nowrap;
+        }
+        &__name{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            flex-basis: 20%;
+            font-size: 2em;
+        }
+        &__appointment{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            flex-basis: 10%;
+        }
+        &__description{
+            flex-basis: 70%;
+            margin: 20px auto;
+            text-align: center;
+            width: 95%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            line-height: 1.5;
+            text-indent: 1.5em;
+            @media(min-width: 992px){
+                line-height: 1.7;
+            }
+        }        
+    }
+}
+
+
+.directors{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-wrap: wrap;
+    text-align: center;
+    min-height: 1400px;
+    @media(min-width: 992px){
+        justify-content: space-evenly;
+        min-height: 300px;
+    }  
+    &__icon{
+    flex-basis: 80%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    @media(min-width: 992px){
+        flex-basis: 25%;
+    }
+      &__photo{
+          display: block;
+          background-color: green;
+          width: 200px;
+          height: 200px;
+          margin: 0 auto;
+          border-radius: 50%;
+          overflow: hidden;
+      }
+      &__name{
+          margin: 10px;
+          font-size: 1.3em;
+      } 
+    }
+    &__appointment{
+        font-size: .8em;
+        text-decoration: underline;
+    }
+    
+}

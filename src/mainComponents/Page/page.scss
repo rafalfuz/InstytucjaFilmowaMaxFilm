@@ -1,0 +1,9 @@
+.page{
+    text-align: left;
+    width: 90vw;
+    margin: 5% auto;
+    font-size: 1.6em;
+    @media(min-width: 568px){
+        font-size: 1.8em;
+    }
+}

@@ -1,0 +1,24 @@
+.distribution{
+    margin: 20px auto;
+    text-align: center;
+    @media(min-width: 992px){
+        width: 30%;
+    }
+    &__person{
+        margin-top: 30px;
+        border-bottom: 1px solid black;
+    }
+    &__name{
+        margin: 10px auto;
+        font-weight: 700;
+    }
+    &__contact{
+        margin: 5px auto;
+        &__phone{
+            margin-left: 10px;
+        }
+        &__email{
+            margin-left: 10px;
+        }
+    }
+}

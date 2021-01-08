@@ -1,0 +1,18 @@
+.wisla{
+    margin: 20px;
+    text-indent: 22px;
+}
+.wisla--link{
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    color: orange;
+    text-align: center;
+    transition: 1s;
+}
+.wisla--link:hover{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}

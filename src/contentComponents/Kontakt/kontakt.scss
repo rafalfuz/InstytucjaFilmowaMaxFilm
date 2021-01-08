@@ -1,0 +1,45 @@
+.contact{
+    color: black;
+    min-height: 80vh;
+    @media(min-width: 1180px){
+        display: flex;
+        align-items: center;
+        height: 80vh;
+    }
+    &__address{
+        font-weight: bold;
+        line-height: 1.5;
+        font-size: 1.2em;
+        @media(min-width: 1180px){
+            flex-basis: 40%;
+        }
+        &__icon{
+            display: inline-block;
+        }
+        &__location{
+
+            margin: 30px auto;
+        }
+        &__phone{
+            margin: 30px auto; 
+            font-size: .9em;
+        }
+        &__mail{
+   
+            margin: 30px auto;
+            font-size: .9em;
+        }      
+    }
+    &__map{
+        width: 90vw;
+        border: 0;
+    }
+
+}
+a{
+    color: black;
+    text-decoration: none
+}
+.fastSpace{
+    margin-left: 10px;
+}

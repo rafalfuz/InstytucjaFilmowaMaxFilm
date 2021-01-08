@@ -1,0 +1,17 @@
+.list{
+    width: 90%;
+    margin: 20px auto;
+    &__text{
+        margin: 20px;
+        text-indent: 20px;
+        &--title{
+            text-align: center;
+        }
+        &--regards{
+            text-align: right;
+        }
+    }
+    @media(min-width: 1024px){
+        width: 60%
+    }
+}

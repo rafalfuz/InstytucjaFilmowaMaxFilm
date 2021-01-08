@@ -1,0 +1,179 @@
+.bip{
+    text-align: center;
+    &__office{
+       opacity: 1; // unnecessary
+    }
+    &__mission{
+      opacity: 1; // unnecessary
+    }
+    &__targets{
+      opacity:1; // unnecessary
+    }
+    &__owner{
+        margin: 20px auto;
+        font-weight: 700;
+        line-height: 1.8;
+        @media(min-width: 992px){
+            width: 50%;
+            line-height: 2;            
+        }
+    }
+    &__link{
+            width: fit-content;
+            margin: 10px 20px auto auto;;
+            display: block;
+            border: 1px solid black;
+            padding: 10px;
+            color: orange;
+            text-align: center;
+            transition: 1s;
+            }
+            &__link:hover{
+            border: 1px solid black;
+            color: white;
+            background-color: black;
+            }
+    }
+
+
+.studio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media(min-width: 992px){
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-top: 1px solid black;
+    }
+    &__imageHeadquater{
+        display: none;
+        flex-basis: 50%;
+        @media(min-width: 992px){
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 200px;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+        }
+    }
+    &__addressHeadquater{
+        width: 100%;
+        flex-basis: 50%;
+        @media(min-width: 992px){
+            width: fit-content;
+            height: 450px;
+            border-bottom: 1px solid black;
+            line-height: 2;
+        }
+    }
+    &__addressRedaction{
+        width: 100%;
+        flex-basis: 50%;
+        @media(min-width: 992px){
+            width:fit-content;
+            height: 250px;
+            line-height: 2;
+            border-left: 1px solid black;
+        }
+    }
+    &__imageRedaction{
+        display: none;
+        flex-basis: 50%;
+        @media(min-width: 992px){
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 180px;
+            border-bottom: 1px solid black;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.headquater{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-style: normal;
+   &__name{
+       font-size: 1.7em;
+       text-transform: uppercase;
+       margin: 10px auto;
+   }
+   &__title{
+       font-size: 1.2em;
+       margin-bottom: 5px;
+   }
+   &__default{
+       line-height: 1.5;
+       font-style: normal;
+       &--phone{
+        border-top: 1px solid black;
+        font-size: 1.3em;
+        }
+       &--mail{
+        border-top: 1px solid black;
+        font-size: 1.3em;
+        }
+   }
+}
+
+.redaction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__title{
+        font-size: 1.2em;
+        margin: 10px auto 5px auto;
+        font-style: normal;
+        }
+    &__default{
+        line-height: 1.5;
+        font-style: normal;
+        &--phone{
+            border-top: 1px solid black;
+            font-size: 1.3em;
+            }
+           &--mail{
+            border-top: 1px solid black;
+            font-size: 1.3em;
+            }
+    }
+}
+
+.task{
+    &__title{
+        font-size: 1.2em;
+        margin: 10px auto 5px auto;
+    }
+    &__description{
+        line-height: 1.5;
+        @media(min-width: 992px){
+            border-right: 1px solid black;
+        }
+    }
+}
+
+.concept{
+    &__title{
+        font-size: 1.2em;
+        margin: 10px auto 5px auto;
+    }
+    &__list{
+        list-style-type: disc;
+        text-align: left;
+        margin-left: 25px;
+        @media(min-width: 992px){
+            width: 60%;
+            border-bottom: 1px solid black;
+            margin-left: 150px;
+        }
+        &__item{
+            margin: 15px auto;
+        }
+    }
+}

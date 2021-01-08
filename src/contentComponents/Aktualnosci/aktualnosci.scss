@@ -1,0 +1,29 @@
+.info{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 12px;
+    &__date{
+        flex-basis: 25%;
+        text-align: center;
+        font-size: .6em;
+    }
+    &__title{
+        flex-basis: 75%;
+        text-align: left;
+        font-size: 1em;
+    }
+    &__expand{
+        font-size: .8em;
+        margin: 20px;
+        flex-basis: 100%;
+        text-align: center;
+
+    }
+    &__expand:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

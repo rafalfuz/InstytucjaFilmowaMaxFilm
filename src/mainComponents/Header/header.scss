@@ -1,0 +1,145 @@
+.header {
+    display: flex;
+    height: 13vh;
+    min-width: 200px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    @media(min-width: 568px)and(orientation: landscape){
+        height: 17vh;
+    }
+    @media(min-width: 721px)and(orientation: landscape){
+        height: 20vh;
+    }
+    &__image{
+        flex-basis: 10%;
+        height: 60px;
+        @media(min-width: 365px){
+            height: 80px;
+        }
+        @media(min-width: 365px)and(orientation: landscape){
+            height: 60px;
+        }
+        @media(min-width: 446px){
+            height: 90px;
+        }
+        @media(min-width: 446px)and(orientation: landscape){
+            height: 60px;
+        }
+        @media(min-width: 499px)and(orientation: landscape){
+            height: 70px;
+            margin-bottom: 10px;
+        }
+        @media(min-width: 566px)and(orientation: landscape){
+            height: 80px;
+        }
+        @media(min-width: 721px)and(orientation: landscape){
+            height: 100px;
+        }
+        @media(min-width: 723px){
+            height: 130px;
+        }
+        @media(min-width: 723px)and(orientation: landscape){
+            height: 100px;
+        }
+    }
+    &__title{
+        flex-basis: 100%;
+        font-weight: bold;
+        color: #012a60;
+        font-size: 2.2em;
+        text-align: center;
+        align-self: center;
+        padding-bottom: 5px;
+        @media(min-width: 365px){
+            font-size: 2.4em;
+        }
+        @media(min-width: 396px){
+            font-size: 2.6em;
+        }
+        @media(min-width: 421px)and(orientation: landscape){
+            font-size: 2.9em;
+        }
+        @media(min-width: 446px){
+            font-size: 3em;
+        }
+        @media(min-width: 473px)and(orientation: landscape){
+            font-size: 3.2em;
+        }
+        @media(min-width: 499px)and(orientation: landscape){
+            font-size: 3.3em;
+        }
+        @media(min-width: 526px)and(orientation: landscape){
+            font-size: 3.4em;
+            margin-bottom: 5px;
+        }
+        @media(min-width: 527px){
+            font-size: 3.7em;
+        }
+        @media(min-width: 527px)and(orientation: landscape){
+            font-size: 3.5em;
+        }
+        @media(min-width: 552px)and(orientation: landscape){
+            font-size: 3.6em;
+        }
+        @media(min-width: 566px)and(orientation: landscape){
+            font-size: 3.7em;
+        }
+        @media(min-width: 578px)and(orientation: landscape){
+            font-size: 3.8em;
+        }
+        @media(min-width: 606px)and(orientation: landscape){
+            font-size: 4.2em;
+        }
+        @media(min-width: 619px){
+            font-size: 4.5em;
+        }
+        @media(min-width: 619px)and(orientation: landscape){
+            font-size: 4.2em;
+        }
+        @media(min-width: 656px)and(orientation: landscape){
+            font-size: 4.5em;
+        }
+        @media(min-width: 695px)and(orientation: landscape){
+            font-size: 4.7em;
+        }
+        @media(min-width: 723px){
+            font-size: 5em;
+        }
+        @media(min-width: 736px)and(orientation: landscape){
+            font-size: 3.2em;
+        }
+        @media(min-width: 812px)and(orientation: landscape){
+            font-size: 3.5em;
+        }
+
+        @media(min-width: 828px){
+            font-size: 5.9em;
+        }
+        @media(min-width: 960px){
+            font-size: 4.2em;
+        }
+        @media(min-width: 960px){
+            font-size: 4.2em;
+        }
+        @media(min-width: 1024px){
+            font-size: 4.5em;
+        }
+        @media(min-width: 1112px){
+            font-size: 5em;
+        }
+        @media(min-width: 1366px){
+            font-size: 6.2em;
+        }
+        @media(min-width: 1440px){
+            font-size: 6.7em;
+        }
+        @media(min-width: 1680px){
+            font-size: 7.7em;
+        }
+        @media(min-width: 1920px){
+            font-size: 9em;
+        }
+    }
+}

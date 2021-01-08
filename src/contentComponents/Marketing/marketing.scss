@@ -1,0 +1,60 @@
+.marketing{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    &__picture{
+        display: none;
+        @media(min-width: 992px){
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 50%;
+        height: 400px;
+        }
+        &__image{
+            width: 75%;
+            height: 75%;
+        }
+    }
+    &__item{
+        color:#012a60;
+        height: 130px;
+        font-size: 1.1em;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px solid black;
+        @media(min-width: 992px){
+            height: 400px;
+            flex-basis: 50%;
+            font-size: 2em;
+            text-transform: uppercase;
+            line-height: 1.7;
+            border-bottom: none;
+            font-weight: 700;       
+            border-radius: 10%;
+        }
+    
+    }
+    &__item:nth-child(odd){
+        @media(min-width: 992px){
+            box-shadow: -20px 10px 20px 0 #012a60;
+
+
+        }
+    }
+    &__item:nth-child(even){
+        @media(min-width: 992px){
+            box-shadow: 20px -10px 20px 0  #012a60;
+
+
+        }
+    
+}
+}

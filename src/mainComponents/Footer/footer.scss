@@ -1,0 +1,13 @@
+.footer{
+    font-size: 1em;
+    padding-right: 2%;
+    height: 5vh;
+    line-height: 2.5vh;
+    text-align: right;
+    color: white;
+    background-color: #012a60;
+    &__mail{
+        display: block;
+        color: white;
+    }
+}

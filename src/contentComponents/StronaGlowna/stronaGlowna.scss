@@ -1,0 +1,10 @@
+.sgc{
+    text-align: center;
+    &__paragraph{
+        margin-top: 10px;
+    }
+    &__paragraph--blue{
+        margin-top: 10px;
+        color: blue;
+    }
+}

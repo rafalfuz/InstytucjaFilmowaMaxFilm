@@ -1,0 +1,32 @@
+.shareholders{
+    margin: 20px auto;
+    text-align: center;
+    &__icon{
+        margin: 20px auto;
+        text-align: center;
+        font-size: 25px;
+        color: #F40F02;
+        border-bottom: 1px solid black;
+        @media(min-width: 992px){
+            width: 30%;
+        }
+        
+        &__link{
+            display: inline-block;
+            font-size: 20px;
+            width: 150px;
+            margin: 15px auto 10px 30px;
+            border: 1px solid black;
+            padding: 5px;
+            color: orange;
+            text-align: center;
+            transition: 1s;
+            }
+            &__link:hover{
+            border: 1px solid black;
+            color: white;
+            background-color: black;
+            }
+    }
+    
+}
